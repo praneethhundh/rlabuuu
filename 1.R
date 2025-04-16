@@ -1,10 +1,6 @@
-# Get input from user
+
 input <- readline(prompt = "Enter numbers separated by commas: ")
-
-# Convert input to numeric vector
 num_vector <- as.numeric(unlist(strsplit(input, ",")))
-
-# Display the operations
 cat("Numbers entered:", num_vector, "\n")
 cat("Maximum:", max(num_vector), "\n")
 cat("Minimum:", min(num_vector), "\n")
